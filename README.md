@@ -11,7 +11,6 @@ Built-in handling of unsupported file formats
 
 Installation
 
-Install doc2txt along with its dependencies:
 
     npm install @deonis/doc2txt
 
