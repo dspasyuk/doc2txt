@@ -5,7 +5,7 @@ doc2txt is a Node.js module that extracts text from various document formats, in
 Features
 
 Extracts text from:
-    .txt, .py, .js, .sh, .md, .csv, .json .doc and .docx .pdf files
+.txt, .py, .js, .sh, .md, .csv, .json .doc and .docx .pdf files
 Supports handling of nested XML structures in .docx files
 Built-in handling of unsupported file formats
 
