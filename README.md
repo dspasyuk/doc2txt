@@ -13,7 +13,7 @@ Installation
 
 Install doc2txt along with its dependencies:
 
-npm install jszip xml2js word-extractor pdf-text-reader pdfjs-dist
+npm install @deonis/doc2txt
 
 Usage
 
