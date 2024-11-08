@@ -19,7 +19,7 @@ Usage
 
 First, import the doc2txt module and use its methods to read different document types.
 
-    import doc2txt from './path/to/doc2txt.js';
+    import doc2txt from '@deonis/doc2txt';
     
     (async () => {
       const filePath = 'path/to/your/document.docx';
