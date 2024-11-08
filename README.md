@@ -19,13 +19,13 @@ Usage
 
 First, import the doc2txt module and use its methods to read different document types.
 
-import doc2txt from './path/to/doc2txt.js';
-
-(async () => {
-  const filePath = 'path/to/your/document.docx';
-  const text = await doc2txt.extractTextFromFile(filePath);
-  console.log(text);
-})();
+    import doc2txt from './path/to/doc2txt.js';
+    
+    (async () => {
+      const filePath = 'path/to/your/document.docx';
+      const text = await doc2txt.extractTextFromFile(filePath);
+      console.log(text);
+    })();
 
 
 Supported File Types
@@ -47,25 +47,22 @@ Example
 
 Here's an example of how to use doc2txt to read text from various file formats.
 
-import doc2txt from './path/to/doc2txt.js';
+    import doc2txt from './path/to/doc2txt.js';
+    
+    (async () => {
+      const filePaths = [
+        'example.txt',
+        'example.doc',
+        'example.docx',
+        'example.pdf'
+      ];
+    
+      for (const filePath of filePaths) {
+        const text = await doc2txt.extractTextFromFile(filePath);
+        console.log(`Text from ${filePath}:\n`, text);
+      }
+    })();
 
-(async () => {
-  const filePaths = [
-    'example.txt',
-    'example.doc',
-    'example.docx',
-    'example.pdf'
-  ];
-
-  for (const filePath of filePaths) {
-    const text = await doc2txt.extractTextFromFile(filePath);
-    console.log(`Text from ${filePath}:\n`, text);
-  }
-})();
-
-Error Handling
-
-Each method handles errors by logging the error message and returning an empty string. Unsupported formats will trigger a warning message.
 License
 
 MIT License.
