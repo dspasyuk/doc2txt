@@ -1,6 +1,7 @@
 ### doc2txt
 
 doc2txt is a Node.js module that extracts text from various document formats, including .txt, .doc, .docx, and .pdf files. It leverages multiple libraries to parse document contents and convert them into plain text, making it useful for applications that need to analyze or process document content programmatically.
+
 Features
 
 Extracts text from:
