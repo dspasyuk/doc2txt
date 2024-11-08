@@ -13,7 +13,7 @@ Installation
 
 Install doc2txt along with its dependencies:
 
-npm install @deonis/doc2txt
+    npm install @deonis/doc2txt
 
 Usage
 
